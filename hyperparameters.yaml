@@ -1,0 +1,18 @@
+---
+model:
+  input_size: 29
+  hidden_size: 64
+  output_size: 6
+  dropout_prob: 0.25
+
+training:
+  #optimizer: optim.AdamW
+  #loss_func: nn.CrossEntropyLoss()
+  fold_count: 10
+  epoch_count: 50
+  batch_size: 32
+  learning_rate: 1.0e-2
+  weight_decay: 1.0e-1
+  patience: 5
+
+...
