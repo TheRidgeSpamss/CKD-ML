@@ -12,7 +12,7 @@ training:
   epoch_count: 50
   batch_size: 32
   learning_rate: 1.0e-2
-  weight_decay: 1.0e-1
+  weight_decay: 1.0e-2
   patience: 5
 
 ...
